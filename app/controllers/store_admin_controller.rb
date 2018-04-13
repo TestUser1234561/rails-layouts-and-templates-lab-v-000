@@ -4,8 +4,10 @@ class StoreAdminController < ApplicationController
   end
 
   def orders
+        layout :admin
   end
 
   def invoice
+        layout :admin
   end
 end
