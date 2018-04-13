@@ -1,5 +1,10 @@
 class StoreAdminController < ApplicationController
-  def admin
-    layout :admin
+  def home
+  end
+
+  def orders
+  end
+
+  def invoice
   end
 end
